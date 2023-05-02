@@ -44,3 +44,7 @@ document.addEventListener("scroll", () => {
     })
 });
 
+
+document.querySelector(".contact-form").addEventListener("submit", (event) => {
+    clickHandler(event);
+})
